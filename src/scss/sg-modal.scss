@@ -1,0 +1,9 @@
+@import "base/base.scss";
+@import "../variables/variales";
+
+.sg-modal {
+  max-height: 600px;
+  .sg-modal-header {
+    background-color: $modal-header-color
+  }
+}

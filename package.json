@@ -1,0 +1,38 @@
+{
+  "name": "ibase",
+  "version": "1.0.0",
+  "description": "ibase",
+  "main": "src/pages/home/home.js",
+  "scripts": {
+    "start": "webpack-dev-server --config build/webpackDev.js",
+    "build": "node build/build.js",
+    "build-global": "node build/build.js global",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist:style": "gulp --gulpfile build/build-style.js"
+  },
+  "author": "",
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.sass",
+    "*.vue"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.3.4",
+    "postcss-flexibility": "^3.0.0",
+    "precss": "^4.0.0"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
